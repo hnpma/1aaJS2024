@@ -10,12 +10,84 @@ Created on 10:39 AM 7/24/2024
 
 ==+++ end of 2024 worked ++====
 
-==+++ 12024 worked ++====
+==+GOOD CODE++ 2:48 PM 7/24/2024 GOOD CODE worked ++====
+1ab project     2:27 PM 7/24/2024
+ use addEventListener to add the function youRang() as the event handler for the Ring Bell button.
+1ac project     2:48 PM 7/24/2024
+   could you add the function greetFriends() as the event handler for the Greet Friends button?
 
-==+++ end of 2024 worked ++====
+
+index.html 2:49 PM 7/24/2024 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0"
+    <metahttp-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Button click handler</title>
+    <link href="styles01.css" rel="stylesheet">
+   
+</head>
+<body>
+    <h1>demo header</h1>
+    <p id="main-text" class="orange" >
+       This is a bunch of really truly valuable text...
+    </p>
+    <button id="ring-button">Ring Bell</button>
+    <button id ="greet-friend">Greet A Friend </button>
+    <script src="script.js"></script>
+</body>
+</html>
+
+ 
+///////////////////////////////
+script.js   2:49 PM 7/24/2024
+function youRang() {
+    document.getElementById("main-text").innerHTML += "you rang...";
+}
+function myGreetings() {
+   document.getElementById("main-text").innerHTML += "Hello! ";
+}
+
+const button = document.getElementById("ring-button");
+button.addEventListener("click", youRang);// Set named function 
+                                          //youRang as the click event handler
+
+const greet =document.getElementById("greet-friend");//Obtain a reference to
+                                                    // the button greet-friend 
+                                                    //element
+greet.addEventListener('click', myGreetings);
+
+////////////////////////////////
+styles01.css   2:49 PM 7/24/2024
+h1 {
+    background-color: rgb(234, 221, 224); 
+    /* color: rgb(34, 13, 23); */
+    color:green;
+    text-align: center;
+}
+
+p {
+    font-weight: bold;
+    padding: 10px 45px;
+}
+
+button {
+    padding: 0px 25px;
+}
+////////////////////////////////
+
+
+
+
+
+==+GOOD CODE++ end of 2:48 PM 7/24/2024 GOOD CODE worked ++====
 
 
 ==+GOOD CODE++ 2:12 PM 7/24/2024 GOOD CODE worked ++====
+1ab project     2:27 PM 7/24/2024
+ use addEventListener to add the function youRang() as the event handler for the Ring Bell button.
+
 index.html 2:13 PM 7/24/2024
 <!DOCTYPE html>
 <html lang="en">
