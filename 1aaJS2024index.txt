@@ -1,0 +1,223 @@
+1aaJS2024index.txt
+C:\Users\User\Documents\1aaJS2024
+Created on 10:39 AM 7/24/2024
+
+
+
+
+<!--code below has  WORKED
+==+++ 12024 worked ++====
+
+==+++ end of 2024 worked ++====
+
+==+++ 12024 worked ++====
+
+==+++ end of 2024 worked ++====
+
+
+==+GOOD CODE++ 2:12 PM 7/24/2024 GOOD CODE worked ++====
+index.html 2:13 PM 7/24/2024
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0"
+    <metahttp-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Button click handler</title>
+    <link href="styles01.css" rel="stylesheet">
+   
+</head>
+<body>
+    <h1>demo header</h1>
+    <p id="main-text" class="orange" >
+       This is a bunch of really truly valuable text...
+    </p>
+    <button id="ring-button">Ring Bell</button>
+    <script src="script.js"></script>
+</body>
+</html>
+
+///////////////////////////////////////
+script.js
+function youRang() {
+    document.getElementById("main-text").innerHTML += "you rang...";
+    console.log("you rang...");
+}
+// Obtain a reference to the button element
+const button = document.getElementById("ring-button");
+// Set named function youRang as the click event handler
+button.addEventListener("click", youRang);
+
+
+///////////////////////////////////////
+styles01.css
+
+h1 {
+    background-color: rgb(234, 221, 224); 
+    /* color: rgb(34, 13, 23); */
+    color:green;
+    text-align: center;
+}
+
+p {
+    font-weight: bold;
+    padding: 10px 45px;
+}
+
+button {
+    padding: 0px 25px;
+}
+///////////////////////////
+readme1aaJS2024
+C:\Users\User\Documents\1aaJS2024
+
+
+
+9:50 AM 7/24/2024//JS2024practice01ab.js
+//C:\Users\User\Documents\JS2024practice08
+// 8:53 AM 2/8/2024
+GitHub hnpma h2023sep15@outlook.com
+Code practice from Youtube sites below:
+
+
+
+
+
+==+GOOD CODE++ end of 2:12 PM 7/24/2024 GOOD CODE worked ++====
+
+
+
+==+++ 12024 worked ++====
+
+==+++ end of 2024 worked ++====
+
+
+=
+==++ 12:03 PM 7/24/2024WORKED +++===
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="styles01.css" rel="stylesheet">
+
+    <title>Use addEventListener</title>
+</head>
+<body>
+    <h1>button external stylesheet</h1>
+    <p id="main-text" class="orange" style="font-weight: bold;">
+    a bunch of  valuable text...
+    </p>
+    <button id="ring-button">Ring Bell</button>
+    <script src ="script.js"></script>
+</body>
+</html>
+
+
+////////////////////////////////////////
+
+script.js 12:03 PM 7/24/2024
+function youRang() {
+    document.getElementById("main-text").innerHTML += "you rang...";
+    console.log("you rang...");
+}
+// Obtain a reference to the button element
+const button = document.getElementById("ring-button");
+// Set named function youRang as the click event handler
+button.addEventListener("click", youRang);
+
+//////////////////////////////////////
+styles01.css  12:03 PM 7/24/2024
+h1 {
+    background-color: rgb(234, 221, 224); 
+    /* color: rgb(34, 13, 23); */
+    color:green;
+    text-align: center;
+}
+
+p {
+    font-weight: bold;
+    padding: 10px 45px;
+}
+
+button {
+    padding: 0px 25px;
+}
+==+++ end of 12:03 PM 7/24/2024  worked ++====
+
+
+==+++ 11:10 AM 7/24/2024    worked ++====
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0"
+    <metahttp-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Button click handler</title>
+    <link href="styles01.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>demo header</h1>
+    <p id="main-text" class="orange" >
+       This is a bunch of valuable text...
+    </p>
+    <button onclick="youRang();">Ring Bell</button>
+</body>
+</html>
+
+//////////////////////////////////////////////////
+script.js
+function youRang() {
+    document.getElementById("main-text").innerHTML += "You rang me...";
+    // console.log("you rang...");
+}
+/////////////////////////////////////////////////////////
+styles01.css
+h1 {
+    background-color: rgb(220, 168, 191);
+}
+
+p {
+    font-weight: bold;
+}
+
+==+++ end of 11:10 AM 7/24/2024  worked ++====
+
+
+
+==+++ 10:58 AM 7/24/2024 worked ++====
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0"
+    <metahttp-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Button click handler</title>
+    <link href="styles01.css" rel="stylesheet">
+    <script>
+        function youRang() {
+            document.getElementById("main-text").innerHTML += "You rang...";
+            // console.log("you rang...");
+        }
+    </script>
+</head>
+<body>
+    <h1>demo header</h1>
+    <p id="main-text" class="orange" >
+        a bunch of really valuable text...
+    </p>
+    <button onclick="youRang();">Ring Bell</button>
+</body>
+</html> 
+==+++ 10:58 AM 7/24/2024 worked ++====
+
+
+-->
+
+
+
+
+
+
+
+
+

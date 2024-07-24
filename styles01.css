@@ -1,0 +1,15 @@
+h1 {
+    background-color: rgb(234, 221, 224); 
+    /* color: rgb(34, 13, 23); */
+    color:green;
+    text-align: center;
+}
+
+p {
+    font-weight: bold;
+    padding: 10px 45px;
+}
+
+button {
+    padding: 0px 25px;
+}
